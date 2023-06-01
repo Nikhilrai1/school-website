@@ -1,0 +1,205 @@
+// layout for cards
+.layout{
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    text-align: center;
+    place-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+}
+
+
+
+// program section layout
+.program{
+    padding: 1rem;
+    width: 100%;
+    background: #fff;
+    .program__wrapper{
+        width: 100%;
+        .program__heading{
+            margin-bottom: 1rem;
+            text-align: center;
+            width: 100%;
+            h1,p{
+                text-align: center;
+            }
+
+            h1{
+                font-size: 2.2rem;
+                margin-bottom: 0.8rem;
+            }
+
+            p{
+                max-width: 22rem;
+                margin: auto;
+                font-size: large;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+        }
+
+        .program__gallery{
+            padding: 1rem;
+            width: 100%;
+
+            .program__gallery-card{
+                background: #fff;
+                max-width: 300px;
+                box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+                border-radius: 10px !important;
+                .program__gallery-img{
+                    max-width: 100%;
+                    img{
+                        height: 250px;
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                }
+                .program__info{
+                    padding: 1rem;
+                    h1{
+                        font-size: large;
+                    }
+                    p{
+                        font-size: small;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+// gallary section layout
+// max width for gallary section is 1600px
+.layout__gallary{
+    max-width: 1600px;
+    margin: auto;
+    display: grid;
+    text-align: center;
+    place-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+}
+.gallary{
+    padding: 1rem;
+    width: 100%;
+    background: #f5f2f2;
+    .gallary__wrapper{
+        width: 100%;
+        .gallary__heading{
+            margin-bottom: 1rem;
+            text-align: center;
+            width: 100%;
+            h1,p{
+                text-align: center;
+            }
+
+            h1{
+                font-size: 2.2rem;
+                margin-bottom: 0.8rem;
+            }
+
+            p{
+                max-width: 22rem;
+                margin: auto;
+                font-size: large;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+        }
+
+        .gallary__gallery{
+            padding: 1rem;
+            width: 100%;
+
+            .gallary__gallery-card{
+                background: #fff;
+                max-width: 300px;
+                box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+                border-radius: 10px !important;
+                .gallary__gallery-img{
+                    max-width: 100%;
+                    img{
+                        height: 250px;
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                }
+                .gallary__info{
+                    padding: 1rem;
+                    h1{
+                        font-size: large;
+                    }
+                    p{
+                        font-size: small;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.layout__achievement{
+    max-width: 1600px;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+// achievement section layout
+.achievement{
+    padding: 1rem;
+    width: 100%;
+    background: #000000a9;
+
+    .achievement__wrapper{
+        width: 100%;
+        .achievement__heading{
+            margin-bottom: 1rem;
+            text-align: center;
+            width: 100%;
+            h1,p{
+                text-align: center;
+                color: #fff;
+                font-weight: bolder;
+            }
+
+            h1{
+                font-size: 2.2rem;
+                margin-bottom: 0.8rem;
+            }
+
+            p{
+                max-width: 22rem;
+                margin: auto;
+                font-size: large;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+        }
+
+        .achievement__gallery{
+            padding: 1rem;
+            width: 100%;
+
+            .achievement__gallery-card{
+                background: #fff;
+                // max-width: 200px;
+                box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+                border-radius: 10px !important;
+                .achievement__gallery-img{
+                    // max-width: 100%;
+                    img{
+                        height: 150px;
+                        width: 150px;
+                        object-fit: contain;
+                    }
+                }
+            }
+        }
+    }
+}

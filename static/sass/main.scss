@@ -1,0 +1,62 @@
+// google fonts
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Teko:wght@300&display=swap');
+
+// other scss file import
+@import 'base/typography.scss';
+@import 'abstract/mixin.scss';
+@import 'utils/utility.scss';
+@import 'components/header.scss';
+@import 'components/mobilemenu.scss';
+@import 'components/footer.scss';
+@import 'components/banner.scss';
+@import 'components/hero.scss';
+@import 'components/principle.scss';
+@import 'components/feature.scss';
+@import 'base/base.scss';
+@import 'base/layout.scss';
+
+
+
+/* CSS variables for reusablity across all files (including above imported) */
+:root {
+    --primary-font: 'Odibee Sans', cursive;
+    --secondary-font: 'Teko', sans-serif;
+    --primary-color: #06073a;
+    --secondary-color: #2d1a53;
+  
+    --black-200: #020202;
+    --black-300: #333333;
+    --black-400: #1f1e31;
+    --black-500: #555555;
+    --gray-100: #888888;
+    --gray-200: #f0f0f0;
+
+  
+    --color-white: #fff;
+    --color-creamson: #fff0de;
+  }
+
+//************** media queries*************************
+  
+  /* START: header media querie */
+  @media screen and (max-width: 900px) {
+    .nav__lower{
+      display: none;
+    }
+    .banner{
+      margin-top: 121.4px;
+    }
+    
+    .mobile__menu{
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 550px) {
+    
+  }
+  /* END: header media queries */
+  
+
+  /* END: trending media queries */

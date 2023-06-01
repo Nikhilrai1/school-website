@@ -1,0 +1,95 @@
+.footer{
+    background: rgb(0, 0, 0);
+    color: #fff;
+    padding: 1rem;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    .footer__wrapper{
+        max-width: 1600px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+
+        .footer__contact{
+            padding: 0 0.5rem 0.5rem 0.5rem;
+
+            h1{
+                font-size: x-large;
+                margin: 0 0.5rem 0.5rem 0;
+            }
+            p{
+                font-size: small;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                max-width: 200px;
+            }
+            .postbox{
+                margin: 0.5rem 0;
+            }
+           
+
+            .footer__contact-phone, .footer__contact-email{
+                display: flex;
+                align-items: center;  
+                gap: 0.5rem;          
+            }
+            
+        }
+
+        .footer__quick-links{
+            ul{
+
+                li{
+                    a{
+                        text-decoration: none;
+                        color: white;
+                        font-size: small;
+                       
+                    }
+                    a:hover{
+                        text-decoration: underline;
+                    }
+                    margin: 0.5rem;
+                }
+            }
+        }
+
+        .footer__download-app{
+            p{
+                max-width: 200px;
+                margin-top: 1rem;
+            }
+            a{
+                img{
+                    margin: 1rem 0;
+                    max-width: 200px;
+                }
+            }
+        }
+    }
+
+    .footer__copyright{
+        padding: 0.5rem;
+        width: 100%;
+        .footer__copyright-content{
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+            width: 100%;
+            max-width: 645px;
+            background: rgb(7, 7, 7);
+            padding: 10px 0 10px 10px;
+            p{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 0.9rem;
+                text-align: center;
+
+            }
+        }
+    }
+
+}
+
+
+  

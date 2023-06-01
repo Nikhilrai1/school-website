@@ -1,0 +1,161 @@
+
+.banner{
+    margin-top: 169.4px;
+    width: 100%;
+    &__upper{
+        max-height: 736px;
+        height: 550px;
+        .banner__left{
+            flex: 1;
+            max-width: 1200px;
+            position: relative;
+            height: 100%;
+            max-width: 1200px;
+            display: flex;
+            overflow: hidden;
+            z-index: 2;
+            cursor: pointer;
+                & > img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    position: absolute;
+                    z-index: -5;
+                    transition: 1s;
+                }
+            
+
+            button{
+                position: absolute;
+                height: 4rem;
+                width: 4rem;
+                background: #000;
+                border: none;
+                outline: none;
+                opacity: 0.8;
+                top: 15rem;
+                z-index: -1;
+                cursor: pointer;
+                span{
+                    font-size: 50px;
+                    color: white;
+                }
+                
+            }
+            button:hover {
+                background: #fff;
+            }
+
+            button:hover span{
+                color: black;
+            }
+
+            .slide-carousel-right{
+                right: 0;
+            }
+
+            .banner__left-content{
+                padding: 15px;
+                position: absolute;
+                bottom: 0;
+                background: rgb(181, 185, 181);
+                width: 22rem;
+                opacity: 0.8;
+                z-index: -3;
+             h1{
+                color: var(--primary-color);
+                }
+
+            p{
+                margin-top: 0.5rem;
+                font-size: 0.9rem;
+                // font-family: var(--secondary-font);
+            }
+
+            }
+        }
+
+        .banner__right{
+            height: 100%;
+            width: 25rem;
+            padding: 2rem;
+            background: #fffffff5;
+            // border: 1px solid black;
+            box-shadow: -11px -13px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+            h1{
+                font-size: 1.5rem;
+            }
+
+            ul{
+                list-style-type: square;
+                li{
+                    margin: 1rem 0;
+                    font-size: large;
+                    margin-left: 1.2rem;
+
+                    a{
+                        text-decoration: none;
+                        color: black;
+                        
+                    }
+                }
+            }
+
+            .banner__right-buttons{
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+                gap: 1rem;
+
+                button{
+                    padding: 8px;
+                    outline: none;
+                    border: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    a{
+                        text-decoration: none;
+                        font-size: 1rem;
+                        color: #fff;
+                    }
+                }
+                .apply__button{
+                    background: #5eccee;
+                }
+                .foundation__button{
+                    background: #e07a25;
+                }
+            }
+
+        }
+    }
+
+    .banner__lower{
+        width: 100%;
+        display: flex;
+        
+        .banner__lower-left{
+            width: 15rem;
+            background: rgb(23, 158, 57);
+            padding: 10px;
+            color: #fff;
+            font-family: var(--secondary-font);
+            font-size: large;
+        }
+        .banner__lower-right{
+            flex: 1;
+            background: #ddeee4;
+            marquee{
+                width: 100%;
+                font-size: 1rem;
+               
+                    a{
+                        margin: 1rem;
+                        text-decoration: none;
+                        color: black;
+                    }
+            }
+
+        }
+    }
+}
